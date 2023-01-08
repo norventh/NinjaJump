@@ -25,7 +25,7 @@ public class deployShuriken : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(Random.Range(1,3));
+            yield return new WaitForSeconds(Random.Range(300f,600f)*Time.deltaTime);
             spawnShuriken();
         }
     }
